@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+.logo{
+    width: 210px;
+    margin-top: 14px;
+}
+
+.page-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.wrapper{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+
+.title-img{
+    position: relative;
+}
+.page-title1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.page-title2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.profile-wrapper{
+    width: 760px;
+    margin: auto; 
+    text-align: center; 
+    
+}
+
+.profile-wrapper2{
+    max-width: 1140px;
+    margin: 0 auto; 
+    text-align: center; 
+    
+}
+
+/* NEW picture */
+.news-profile-wrapper{
+    width: 760px;
+    margin: auto; 
+    text-align: center; 
+
+}
+
+
+
+
+
+/* ABOUT */
+.about-text{
+    font-size: 24px;
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+
+.nav-title1{
+    font-size: 18px;
+    color: #222222;
+    margin: 0 0 60px;
+}
+.nav-title2{
+    font-size: 16px;
+    color: #222222;
+}
+
+/* COURSE */
+
+.cours-text1{
+    background-color: darkgrey;
+    padding: 0 0 0 50px;
+}
+.cours-text2{
+    background-color: darkgrey;
+    padding: 0 50px 0 0;
+
+}
+
+.courase-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* WORK */
+
+
+
+
+
+.works-list{
+    display: flex;
+
+}
+.works-item{
+    width: 190px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    padding: 21px 0;
+    background-color: #e2df20;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+a:hover{
+    background-color: gold;
+}
+
+
+
+.grid2{
+    width: 760px;
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 380px 380px;
+}
+.grid3{
+    width: 760px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.access-text{
+    margin: 30px;
+}
+
+/* NEWS */
+
+.img_wrap{
+    width: 230px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .img_wrap img{
+    width: 100%;
+    transition-duration: 0.5s;
+  }
+
+.img_wrap:hover img{
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+  }
+
+
+.form-wrapper{
+    width: 600px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-title{
+    width: 150px;
+    margin: 5px 64px 5px 16px;
+    text-align: left;
+}
+
+.form-item{
+    width: 328px;
+}
+
+.footer-text{
+    background-color: #707070;
+    text-align: center;
+    padding: 30px 0;
+
+}
+/* ここから下に記載していく */ 
